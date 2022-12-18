@@ -1,2 +1,3 @@
-print("init")
+print("main")
 
+require("Init")

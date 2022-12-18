@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638059352447718362
-    m_Hash: 937710340
+      ticks: 638068735729341788
+    m_Hash: 3472476171
   m_LockFileStatus:
     m_FilePath: D:/testGit/InventoryBag/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638059353247694250
-    m_Hash: 2574163621
+      ticks: 638068735729341788
+    m_Hash: 1782665371
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -891,6 +891,7 @@ m_PackageAssets:
         - 3.0.14
         - 3.0.15
         - 3.0.16
+        - 3.0.17
         compatible:
         - 1.0.2
         - 1.0.6
@@ -924,7 +925,8 @@ m_PackageAssets:
         - 3.0.14
         - 3.0.15
         - 3.0.16
-        verified: 3.0.16
+        - 3.0.17
+        verified: 3.0.17
       dependencies:
       - name: com.unity.ext.nunit
         version: 1.0.6

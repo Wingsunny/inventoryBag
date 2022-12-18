@@ -1,0 +1,3 @@
+print("Init")
+
+require("Object")

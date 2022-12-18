@@ -66,6 +66,7 @@
     <Compile Include="Assets\XLua\Src\Utils.cs" />
     <Compile Include="Assets\XLua\Examples\09_GenericMethod\Foo.cs" />
     <Compile Include="Assets\XLua\Src\RawObject.cs" />
+    <Compile Include="Assets\Scripts\Utilities\Singleton.cs" />
     <Compile Include="Assets\XLua\Examples\11_RawObject\RawObjectTest.cs" />
     <Compile Include="Assets\XLua\Src\TemplateEngine\TemplateEngine.cs" />
     <Compile Include="Assets\XLua\Examples\06_Coroutine\CoroutineTest.cs" />
@@ -90,8 +91,10 @@
     <Compile Include="Assets\XLua\Src\TypeExtensions.cs" />
     <Compile Include="Assets\XLua\Src\ObjectTranslator.cs" />
     <Compile Include="Assets\XLua\Src\LuaEnv.cs" />
+    <Compile Include="Assets\Scripts\GameStart.cs" />
     <Compile Include="Assets\XLua\Tutorial\CSharpCallLua\CSCallLua.cs" />
     <Compile Include="Assets\XLua\Src\CodeEmit.cs" />
+    <Compile Include="Assets\Scripts\Manager\xLuaMgr.cs" />
     <Compile Include="Assets\XLua\Examples\ExampleGenConfig.cs" />
     <Compile Include="Assets\XLua\Examples\07_AsyncTest\AsyncTest.cs" />
     <Compile Include="Assets\XLua\Src\LuaException.cs" />
@@ -101,9 +104,6 @@
     <Compile Include="Assets\XLua\Src\CopyByValue.cs" />
     <Compile Include="Assets\XLua\Src\StaticLuaCallbacks.cs" />
     <Compile Include="Assets\XLua\Src\InternalGlobals.cs" />
-    <Compile Include="Assets\Scripts\GameStart.cs" />
-    <Compile Include="Assets\Scripts\Utilities\Singleton.cs" />
-    <Compile Include="Assets\Scripts\Manager\xLuaMgr.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\XLua\Examples\07_AsyncTest\Resources\async_test.lua.txt" />
