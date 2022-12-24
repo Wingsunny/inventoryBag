@@ -21,4 +21,22 @@ public class Singleton <T>: MonoBehaviour where T :Singleton<T>
         if (instance == this)
             instance = null;
     }
+
+    public static T GetInstance()
+    {
+        if (instance == null)
+        {
+            GameObject obj = new GameObject();
+            obj.name = typeof(T).ToString();
+            DontDestroyOnLoad(obj);
+            instance = obj.AddComponent<T>();
+        }
+        return instance;
+    }
+
+    protected virtual void Init()
+
+    {
+
+    }
 }
