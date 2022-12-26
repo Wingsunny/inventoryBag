@@ -5,3 +5,11 @@ require("ItemData")
 
 require("PlayerData")
 PlayerData:Init()
+
+require("MainPanel")
+require("BagPanel")
+require("HealthPanel")
+require("EquipPanel")
+MainPanel:Show()
+HealthPanel:Init()
+EquipPanel:Init()
