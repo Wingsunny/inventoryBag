@@ -10,4 +10,3 @@ function PlayerData:Init()
     table.insert(self.items,{id = 5,num = 1})
 end
 
-PlayerData:Init()

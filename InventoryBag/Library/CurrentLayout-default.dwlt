@@ -47,7 +47,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 342}
   m_MaxSize: {x: 12004, y: 8042}
   vertical: 1
-  controlID: 19
+  controlID: 95
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -100,7 +100,7 @@ MonoBehaviour:
   m_MinSize: {x: 201, y: 342}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 31
+  controlID: 61
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -179,7 +179,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 342}
   m_MaxSize: {x: 12004, y: 8042}
   vertical: 0
-  controlID: 20
+  controlID: 96
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -309,7 +309,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -4644
+  m_LastSelectedObjectID: -1196
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -434,22 +434,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/BagAsset/Art/UI
+    - Assets/Prefabs/UI
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 60
   m_LastFolders:
-  - Assets/BagAsset/Art/UI
+  - Assets/Prefabs/UI
   m_LastFoldersGridSize: 60
   m_LastProjectPath: D:\testGit\InventoryBag
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c4480000
-    m_LastClickedID: 18628
-    m_ExpandedIDs: 00000000ec440000ee440000f0440000f2440000624800005c4d000044560000
+    m_SelectedIDs: da450000
+    m_LastClickedID: 17882
+    m_ExpandedIDs: 00000000fc440000fe44000000450000024500002e4500003645000042450000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -477,7 +477,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ec440000ee440000f0440000f2440000
+    m_ExpandedIDs: 00000000fc440000fe4400000045000002450000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -502,9 +502,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 26fbffff
-    m_LastClickedInstanceID: -1242
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 54fbffff
+    m_LastClickedInstanceID: -1196
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000186100009c3b0000a83a0000de3a0000f4370000f8370000923b0000b03b0000623e00009444000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -529,7 +529,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 60}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 60
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 140
@@ -598,23 +598,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: fafaffff
-      m_LastClickedID: -1286
-      m_ExpandedIDs: 00fbffff26fbffff52fbffff54fbffff04440000
+      m_SelectedIDs: 54fbffff
+      m_LastClickedID: -1196
+      m_ExpandedIDs: 4c77ffff7677ffff4488ffff6e88ffff4691ffff32effffff0f0ffff2cfbffff54fbffff56fbffff04440000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: slot
+        m_OriginalName: slot
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -12806
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 4
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 5}
       m_SearchString: 
@@ -660,9 +660,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2143.4956, y: 960.33545, z: -122.33941}
+    m_Target: {x: 1920, y: 1080, z: 0}
     speed: 2
-    m_Value: {x: 2143.4956, y: 960.33545, z: -122.33941}
+    m_Value: {x: 1920, y: 1080, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -713,9 +713,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 1314.1097
+    m_Target: 1000
     speed: 2
-    m_Value: 1314.1097
+    m_Value: 1000
   m_Ortho:
     m_Target: 1
     speed: 2

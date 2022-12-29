@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 4759115
+CRC: 3118437431
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 068d272e2e51a2f441636d82d0a32470
+    Hash: 90d590a6f41a8c3b3b81aa5691792bdb
   TypeTreeHash:
     serializedVersion: 2
     Hash: 5c6cd4c2abd2cffc4142d6ce8341d304
@@ -67,4 +67,5 @@ Assets:
 - Assets/Prefabs/UI/HealthPanel.prefab
 - Assets/Prefabs/UI/EquipPanel.prefab
 - Assets/Prefabs/Sprite/Icon.spriteatlas
+- Assets/Prefabs/UI/emptySlot.prefab
 Dependencies: []
