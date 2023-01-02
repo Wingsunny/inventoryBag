@@ -18,7 +18,7 @@ public class xLuaMgr :Singleton<xLuaMgr>
     private void InitLuaEnv()
     {
         env = new LuaEnv();
-        env.AddLoader(LuaLoader);
+        env.AddLoader(LuaLoaderFromAB);
     }
 
     public void EnterGame()
@@ -45,11 +45,13 @@ public class xLuaMgr :Singleton<xLuaMgr>
 
     public byte[] LuaLoaderFromAB(ref string filepath)
     {
-        AssetBundle abPage = AssetBundle.LoadFromFile(Application.streamingAssetsPath + "/lua");
-        TextAsset luaText = abPage.LoadAsset<TextAsset>(filepath + ".lua");
-        if (luaText != null)
-            return luaText.bytes;
+        TextAsset file2 = ABMgr.GetInstance().LoadRes<TextAsset>("lua", filepath + ".lua");
+        if (file2 != null)
+            return file2.bytes;
+        else
+            Debug.Log("Ê§°Ü");
         return null;
+
     }
 
     /// <summary>

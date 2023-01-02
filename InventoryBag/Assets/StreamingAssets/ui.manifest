@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3118437431
+CRC: 2170397524
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 90d590a6f41a8c3b3b81aa5691792bdb
+    Hash: 5d169e5bac843c07ac6a6853a6614a9b
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 5c6cd4c2abd2cffc4142d6ce8341d304
+    Hash: 34652832841b7ca28923f08d8c450a83
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -17,6 +17,8 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 48
   Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
 - Class: 114
   Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
 - Class: 114
@@ -25,6 +27,8 @@ ClassTypes:
   Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b9173d38911503c4a9a371b0760bdd15, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
 - Class: 115
@@ -40,6 +44,8 @@ ClassTypes:
 - Class: 687078895
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: XLuaTest.Injection
 - AssemblyName: UnityEngine.CoreModule
   ClassName: UnityEngine.Events.PersistentCallGroup
 - AssemblyName: UnityEngine.CoreModule
@@ -68,4 +74,5 @@ Assets:
 - Assets/Prefabs/UI/EquipPanel.prefab
 - Assets/Prefabs/Sprite/Icon.spriteatlas
 - Assets/Prefabs/UI/emptySlot.prefab
-Dependencies: []
+Dependencies:
+- D:/testGit/InventoryBag/Assets/StreamingAssets/lua

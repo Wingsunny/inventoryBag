@@ -11,6 +11,7 @@ using System.Collections;
 using System.Collections.Generic;
 using XLua;
 using System;
+using UnityEngine.EventSystems;
 
 namespace XLuaTest
 {
@@ -22,7 +23,7 @@ namespace XLuaTest
     }
 
     [LuaCallCSharp]
-    public class LuaBehaviour : MonoBehaviour
+    public class LuaBehaviour : MonoBehaviour, IPointerClickHandler
     {
         public TextAsset luaScript;
         public Injection[] injections;
@@ -34,6 +35,7 @@ namespace XLuaTest
         private Action luaStart;
         private Action luaUpdate;
         private Action luaOnDestroy;
+        private Action luaClick;
 
         private LuaTable scriptEnv;
 
@@ -59,6 +61,7 @@ namespace XLuaTest
             scriptEnv.Get("start", out luaStart);
             scriptEnv.Get("update", out luaUpdate);
             scriptEnv.Get("ondestroy", out luaOnDestroy);
+            scriptEnv.Get("click", out luaClick);
 
             if (luaAwake != null)
             {
@@ -100,6 +103,15 @@ namespace XLuaTest
             luaStart = null;
             scriptEnv.Dispose();
             injections = null;
+            luaClick = null;
+        }
+
+        public void OnPointerClick(PointerEventData eventData)
+        {
+                if (luaClick != null)
+                {
+                    luaClick();
+                }
         }
     }
 }
