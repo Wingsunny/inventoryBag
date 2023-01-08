@@ -13,6 +13,7 @@ function update()
 	local y = verticla*speed*CS.UnityEngine.Time.deltaTime
 	
 	self.transform:Translate(x,y,0)
+
 end
 
 function ondestroy(  )

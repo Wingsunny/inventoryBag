@@ -4,13 +4,16 @@ require("Init")
 require("ItemData")
 
 require("PlayerData")
-PlayerData:InitData()
 
 require("MainPanel")
 require("BagPanel")
 require("HealthPanel")
 require("EquipPanel")
 require("ItemGrid")
+require("Player")
+
+PlayerData:InitData()
+
 MainPanel:Show()
 HealthPanel:Init()
 EquipPanel:Init()

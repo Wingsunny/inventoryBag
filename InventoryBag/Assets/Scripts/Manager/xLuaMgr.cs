@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using XLua;
 using System.IO;
+using UnityEngine.UI;
 
 public class xLuaMgr :Singleton<xLuaMgr>
 {
@@ -18,7 +19,7 @@ public class xLuaMgr :Singleton<xLuaMgr>
     private void InitLuaEnv()
     {
         env = new LuaEnv();
-        env.AddLoader(LuaLoaderFromAB);
+        env.AddLoader(LuaLoader);
     }
 
     public void EnterGame()

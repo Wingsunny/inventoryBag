@@ -10,6 +10,8 @@ GameObject = CS.UnityEngine.GameObject
 Transform = CS.UnityEngine.Transform
 RectTransform = CS.UnityEngine.RectTransform
 TextAsset = CS.UnityEngine.TextAsset
+Resources=CS.UnityEngine.Resources
+Instantiate=CS.UnityEngine.Object.Instantiate
 
 SpriteAtlas = CS.UnityEngine.U2D.SpriteAtlas
 
@@ -22,4 +24,4 @@ Button = UI.Button
 
 Canvas = GameObject.Find("Canvas").transform
 
-ABMgr=CS.ABMgr.GetInstance()
+--ABMgr=CS.ABMgr.GetInstance()

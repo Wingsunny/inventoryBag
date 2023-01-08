@@ -1,8 +1,8 @@
 [
-{"id":1,"name":"篮子","icon":"Icon_Basket","type":1,"desc":"这是一个篮子"},
-{"id":2,"name":"斧头","icon":"Icon_Chop","type":1,"desc":"这是一个斧头"},
-{"id":3,"name":"土豆","icon":"Icon_Potato","type":2,"desc":"这是一个土豆"},
-{"id":4,"name":"葡萄","icon":"Icon_Grape","type":2,"desc":"这是一串葡萄"},
-{"id":5,"name":"土豆种子","icon":"Icon_PotatoSeed","type":3,"desc":"这是一包土豆种子"},
-{"id":6,"name":"葡萄种子","icon":"Icon_GrapeSeed","type":3,"desc":"这是一包葡萄种子"},
+{"id":1,"name":"篮子","icon":"Icon_Basket","type":1,"price":15,"desc":"这是一个篮子"},
+{"id":2,"name":"斧头","icon":"Icon_Chop","type":1,"price":20,"desc":"这是一个斧头"},
+{"id":3,"name":"土豆","icon":"Icon_Potato","type":2,"price":9,"desc":"这是一个土豆"},
+{"id":4,"name":"葡萄","icon":"Icon_Grape","type":2,"price":14,"desc":"这是一串葡萄"},
+{"id":5,"name":"土豆种子","icon":"Icon_PotatoSeed","type":3,"price":5,"desc":"这是一包土豆种子"},
+{"id":6,"name":"葡萄种子","icon":"Icon_GrapeSeed","type":3,"price":10,"desc":"这是一包葡萄种子"},
 ]

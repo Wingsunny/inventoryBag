@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 13016282
+CRC: 3938286429
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 9f5b94bc85b6775dd72ab27bc2ed8ab5
+    Hash: e03e98321d9dbb4476499008c8d133da
   TypeTreeHash:
     serializedVersion: 2
-    Hash: b687de25d52b215bc847cc4940c18fcc
+    Hash: 5c6cd4c2abd2cffc4142d6ce8341d304
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -17,18 +17,14 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 48
   Script: {instanceID: 0}
-- Class: 49
-  Script: {instanceID: 0}
 - Class: 114
   Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: b9173d38911503c4a9a371b0760bdd15, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
 - Class: 115
@@ -52,5 +48,4 @@ Assets:
 - Assets/Resources/UI/EquipPanel.prefab
 - Assets/Resources/Sprite/Icon.spriteatlas
 - Assets/Resources/UI/emptySlot.prefab
-Dependencies:
-- D:/inventoryBag/InventoryBag/Assets/StreamingAssets/lua
+Dependencies: []
