@@ -14,6 +14,8 @@ public class GameStart : Singleton<GameStart>
     private void Start()
     {
         StartCoroutine(StartGame());
+        Object player = Resources.Load("Player/player");
+        Instantiate(player);
     }
 
     IEnumerator checkHotUpdate()

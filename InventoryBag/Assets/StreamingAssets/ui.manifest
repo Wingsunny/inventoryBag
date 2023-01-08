@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2170397524
+CRC: 13016282
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 5d169e5bac843c07ac6a6853a6614a9b
+    Hash: 9f5b94bc85b6775dd72ab27bc2ed8ab5
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 34652832841b7ca28923f08d8c450a83
+    Hash: b687de25d52b215bc847cc4940c18fcc
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -22,13 +22,13 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
-- Class: 114
   Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: b9173d38911503c4a9a371b0760bdd15, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
 - Class: 115
@@ -43,36 +43,14 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 687078895
   Script: {instanceID: 0}
-SerializeReferenceClassIdentifiers:
-- AssemblyName: Assembly-CSharp
-  ClassName: XLuaTest.Injection
-- AssemblyName: UnityEngine.CoreModule
-  ClassName: UnityEngine.Events.PersistentCallGroup
-- AssemblyName: UnityEngine.CoreModule
-  ClassName: UnityEngine.RectOffset
-- AssemblyName: UnityEngine.UI
-  ClassName: UnityEngine.UI.AnimationTriggers
-- AssemblyName: UnityEngine.UI
-  ClassName: UnityEngine.UI.Button/ButtonClickedEvent
-- AssemblyName: UnityEngine.UI
-  ClassName: UnityEngine.UI.ColorBlock
-- AssemblyName: UnityEngine.UI
-  ClassName: UnityEngine.UI.FontData
-- AssemblyName: UnityEngine.UI
-  ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
-- AssemblyName: UnityEngine.UI
-  ClassName: UnityEngine.UI.Navigation
-- AssemblyName: UnityEngine.UI
-  ClassName: UnityEngine.UI.ScrollRect/ScrollRectEvent
-- AssemblyName: UnityEngine.UI
-  ClassName: UnityEngine.UI.SpriteState
+SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/Prefabs/UI/ButtonPanel.prefab
-- Assets/Prefabs/UI/BagPanel.prefab
-- Assets/Prefabs/UI/slot.prefab
-- Assets/Prefabs/UI/HealthPanel.prefab
-- Assets/Prefabs/UI/EquipPanel.prefab
-- Assets/Prefabs/Sprite/Icon.spriteatlas
-- Assets/Prefabs/UI/emptySlot.prefab
+- Assets/Resources/UI/ButtonPanel.prefab
+- Assets/Resources/UI/BagPanel.prefab
+- Assets/Resources/UI/slot.prefab
+- Assets/Resources/UI/HealthPanel.prefab
+- Assets/Resources/UI/EquipPanel.prefab
+- Assets/Resources/Sprite/Icon.spriteatlas
+- Assets/Resources/UI/emptySlot.prefab
 Dependencies:
-- D:/testGit/InventoryBag/Assets/StreamingAssets/lua
+- D:/inventoryBag/InventoryBag/Assets/StreamingAssets/lua

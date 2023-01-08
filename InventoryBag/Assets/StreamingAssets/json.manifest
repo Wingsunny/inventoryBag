@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2711311697
+CRC: 960880092
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: b768c72e20764b6fdab071c46df20866
+    Hash: 11311b1fc90d9502ac32debac1790730
   TypeTreeHash:
     serializedVersion: 2
     Hash: 5ad585dd02dfb5016c0dad519eab8f49
@@ -13,5 +13,5 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/Prefabs/Data/ItemData.json
+- Assets/Resources/Data/ItemData.json
 Dependencies: []

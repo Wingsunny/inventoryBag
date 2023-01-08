@@ -4,7 +4,6 @@ require("Init")
 require("ItemData")
 
 require("PlayerData")
-PlayerData:Init()
 PlayerData:InitData()
 
 require("MainPanel")

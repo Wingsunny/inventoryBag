@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1122115760
+CRC: 3296388620
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: ff3681e94eab0c49faca0ead262a97bc
+    Hash: b8c74f9ae0587fb9322a9b3aa9ef8a2e
   TypeTreeHash:
     serializedVersion: 2
     Hash: a47642d024767577ffda232dc00cd79b
@@ -33,6 +33,6 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/Prefabs/Player/player.prefab
+- Assets/Resources/Player/player.prefab
 Dependencies:
-- D:/testGit/InventoryBag/Assets/StreamingAssets/lua
+- D:/inventoryBag/InventoryBag/Assets/StreamingAssets/lua
