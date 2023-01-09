@@ -17,5 +17,3 @@ PlayerData:InitData()
 MainPanel:Show()
 HealthPanel:Init()
 EquipPanel:Init()
-test=4
-print(test)

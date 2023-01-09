@@ -25,6 +25,7 @@ public class xLuaMgr :Singleton<xLuaMgr>
     public void EnterGame()
     {
         DoLuaFile("main");
+        
     }
 
     public byte[] LuaLoader(ref string filepath)
@@ -76,6 +77,14 @@ public class xLuaMgr :Singleton<xLuaMgr>
         {
             Debug.LogError(string.Format("SafeReadAllBytes failed! path = {0} with err = {1}", fileName, ex.Message));
             return null;
+        }
+    }
+
+    public LuaTable Global
+    {
+        get
+        {
+            return env.Global;
         }
     }
 

@@ -44,14 +44,14 @@ function BagPanel:Init(  )
 		self.panelObj.transform:Find("DescriptionPanel/UseButton"):GetComponent(typeof(Button)).onClick:AddListener(function()
 			self:SubItem()
 		end)
+		self.panelObj:SetActive(false)
 	end
 end
 
 --œ‘ æ
 function BagPanel:Show(  )
-	self:Init()
+	--self:Init()
 	self.panelObj:SetActive(true)
-
 	BagPanel:RefreshBag( )
 end
 
@@ -105,7 +105,7 @@ function BagPanel:AddItem( item )
 	local isNotContain=true
 	for i=1,#PlayerData.items do
 		if PlayerData.items[i].id== item.id then
-			PlayerData.items[i].num=PlayerData.items[i].num+1
+			PlayerData.items[i].num=PlayerData.items[i].num+item.num
 			isNotContain=false
 		end
 	end

@@ -16,9 +16,11 @@ public class GameStart : Singleton<GameStart>
         StartCoroutine(StartGame());
         Object player = Resources.Load("Player/player");
         Instantiate(player);
+        Object item = Resources.Load("Item/Chop");
+        Instantiate(item);
     }
 
-    IEnumerator checkHotUpdate()
+     IEnumerator checkHotUpdate()
     {
         yield return null;
     }

@@ -34,9 +34,7 @@ function PlayerData:Equip(equipment)
         BagPanel:AddItem(PlayerData.equip)
         PlayerData.equip=nil
     else
-        PlayerData.equip=equipment
-        
-        EquipPanel:Equip(PlayerData.equip.id)
-        
+        PlayerData.equip=equipment        
+        EquipPanel:Equip(PlayerData.equip.id)        
     end
 end

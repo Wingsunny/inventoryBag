@@ -10,6 +10,7 @@ local detail={}
 detail.obj=nil
 detail.name=nil
 detail.desc=nil
+detail.price=nil
 detail.index=nil
 
 BagPanel.items={}
@@ -35,6 +36,7 @@ function BagPanel:Init(  )
 		detail.obj=self.panelObj.transform:Find("DescriptionPanel"):GetComponent(typeof(Transform))
 		detail.name=self.panelObj.transform:Find("DescriptionPanel/ItemName"):GetComponent(typeof(Text))
 		detail.desc=self.panelObj.transform:Find("DescriptionPanel/ItemDescription"):GetComponent(typeof(Text))
+		detail.price=self.panelObj.transform:Find("DescriptionPanel/ItemPrice/moneyText"):GetComponent(typeof(Text))
 		self.panelObj.transform:Find("DescriptionPanel/SellButton"):GetComponent(typeof(Button)).onClick:AddListener(function()
 			self:SellItem()
 		end)
@@ -57,6 +59,7 @@ end
 function BagPanel:ShowDetail( itemData,i )
 	detail.name.text=itemData.name
 	detail.desc.text=itemData.desc
+	detail.price.text=itemData.price
 	detail.index=i
 end
 
@@ -102,7 +105,7 @@ function BagPanel:AddItem( item )
 	local isNotContain=true
 	for i=1,#PlayerData.items do
 		if PlayerData.items[i].id== item.id then
-			PlayerData.items[i].num=PlayerData.items[i].num+1
+			PlayerData.items[i].num=PlayerData.items[i].num+item.num
 			isNotContain=false
 		end
 	end

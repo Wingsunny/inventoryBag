@@ -15,5 +15,6 @@ require("Player")
 PlayerData:InitData()
 
 MainPanel:Show()
+BagPanel:Init(  )
 HealthPanel:Init()
 EquipPanel:Init()
